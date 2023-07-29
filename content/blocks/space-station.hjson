@@ -1,0 +1,15 @@
+type: CoreBlock
+name: Space Station
+health: 1500
+itemCapacity: 5000
+size: 5
+unitCapModifier: 500
+unitType: adv-unit
+requirements: [
+	copper/1
+] 
+category: effect
+fogRadius: 10
+hasItems: true
+alwaysUnlocked: true
+hasShadow: false

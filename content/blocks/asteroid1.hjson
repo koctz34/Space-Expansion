@@ -1,0 +1,3 @@
+name: Asteroid
+type: Wall
+health: 999999999

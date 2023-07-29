@@ -1,0 +1,92 @@
+name: Utlra Unit
+flying: true
+health: 500
+hitSize: 23
+shadow: false
+outlines: false
+speed: 2
+drag: 0
+engineSize: 1
+targetGround: false
+targetAir: true
+drawCell: false
+rotateSpeed: 1
+baseRotateSpeed: 1
+faceTarget: false
+accel: 0.6
+armor: 0
+itemCapacity: 50
+omniMovement: false
+fogRadius: 25
+canAttack: true
+weapons:[
+	{
+	name: gun-weapon
+	x: 5
+	y: -1
+	recoil: 0.4
+	rotateSpeed: 1.3
+	inaccuracy: 4
+	rotate: true
+	ejectEffect: none
+	reload: 4
+	bullet:{
+		type: BasicBulletType
+		damage: 37
+		speed: 7
+		lifetime: 40
+		width: 5
+		height: 8
+		}
+	},
+	{
+	name: rocket-weapon
+	x: 3
+	y: -5
+	recoil: 0.6
+	rotateSpeed: 1
+	inaccuracy: 4
+	rotate: true
+	mirror: true
+	ejectEffect: none
+	reload: 120
+	bullet:{
+		type: BasicBulletType
+		damage: 100
+		speed: 6
+		lifetime: 80
+		width: 7
+		height: 10
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+       		trailEffect: smokeCloud
+       	 	trailLength: 24
+       	 	hitEffect: explosion
+        		despawnEffect: explosion
+		}
+	},
+	{
+	name: laser-weapon
+	x: 0
+	y: 6
+	recoil: 0.7
+	rotateSpeed: 0.7
+	inaccuracy: 4
+	rotate: true
+	mirror: false
+	ejectEffect: none
+	reload: 180
+	bullet:{
+		type: BasicBulletType
+		damage: 200
+		speed: 17
+		lifetime: 30
+		width: 5
+		height: 12
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+			trailColor: d2faee
+       	 	trailLength: 100
+		}
+	}
+]

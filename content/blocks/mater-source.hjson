@@ -1,0 +1,4 @@
+name: "[yellow]?[sky]?[orange]?"
+type: ItemSource
+health: 999999999
+hasShadow: false
