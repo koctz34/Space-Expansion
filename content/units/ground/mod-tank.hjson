@@ -1,0 +1,67 @@
+name: Mod Tank
+flying: false
+type: tank
+health: 200
+hitSize: 8
+shadow: false
+outlines: false
+speed: 1
+targetGround: true
+targetAir: false
+drawCell: false
+rotateSpeed: 2
+baseRotateSpeed: 2
+faceTarget: false
+armor: 0
+itemCapacity: 0
+omniMovement: false
+fogRadius: 10
+canAttack: true
+weapons:[
+	{
+	name: gun-weapon
+	x: 0
+	y: 3
+	recoil: 0.6
+	rotateSpeed: 0.8
+	inaccuracy: 4
+	ejectEffect: none
+	reload: 13
+	mirror: false
+	rotate: true
+	bullet:{
+		type: BasicBulletType
+		damage: 23
+		speed: 6
+		lifetime: 30
+		width: 4
+		height: 7
+		}
+	},
+	{
+	name: rocket-weapon
+	x: 2
+	y: -3
+	recoil: 0.8
+	rotateSpeed: 0.7
+	inaccuracy: 4
+	rotate: true
+	mirror: true
+	ejectEffect: none
+	reload: 100
+	bullet:{
+		type: BasicBulletType
+		damage: 70
+		speed: 5
+		lifetime: 80
+		width: 7
+		height: 10
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+       		trailEffect: smokeCloud
+       	 	trailLength: 20
+       	 	hitEffect: explosion
+        		despawnEffect: explosion
+		}
+	}
+]

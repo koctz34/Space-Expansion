@@ -1,0 +1,39 @@
+name: Build Drone
+flying: true
+health: 50
+hitSize: 13
+shadow: false
+outlines: false
+speed: 2
+engineSize: 0.5
+targetGround: false
+targetAir: true
+drawCell: false
+faceTarget: false
+armor: 0
+itemCapacity: 0
+omniMovement: false
+fogRadius: 10
+buildSpeed: 1
+hasBuild: true
+canAttack: true
+weapons:[
+	{
+	name: gun
+	x: 3
+	y: 0
+	recoil: 0
+	rotateSpeed: 0.7
+	inaccuracy: 4
+	ejectEffect: none
+	reload: 18
+	bullet:{
+		type: BasicBulletType
+		damage: 10
+		speed: 7
+		lifetime: 30
+		width: 3
+		height: 6
+		}
+	}
+]

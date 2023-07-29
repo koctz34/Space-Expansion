@@ -1,0 +1,61 @@
+name: Basic Tank
+flying: false
+type: tank
+health: 100
+hitSize: 8
+shadow: false
+outlines: false
+speed: 1
+targetGround: true
+targetAir: false
+drawCell: false
+rotateSpeed: 2
+baseRotateSpeed: 2
+faceTarget: false
+armor: 0
+itemCapacity: 0
+omniMovement: false
+fogRadius: 10
+canAttack: true
+weapons:[
+	{
+	name: gun-weapon
+	x: 0
+	y: 3
+	recoil: 0.6
+	rotateSpeed: 0.7
+	inaccuracy: 4
+	ejectEffect: none
+	reload: 16
+	mirror: false
+	rotate: true
+	bullet:{
+		type: BasicBulletType
+		damage: 18
+		speed: 7
+		lifetime: 30
+		width: 3
+		height: 6
+		}
+	},
+	{
+	name: gun-weapon
+	x: 0
+	y: -3
+	recoil: 0.6
+	rotateSpeed: 0.7
+	inaccuracy: 4
+	ejectEffect: none
+	reload: 16
+	mirror: false
+	rotate: true
+	bullet:{
+		type: BasicBulletType
+		damage: 18
+		speed: 7
+		lifetime: 30
+		width: 3
+		height: 6
+		}
+	}
+]

@@ -1,0 +1,41 @@
+name: Basic Unit
+flying: true
+health: 50
+hitSize: 13
+shadow: false
+outlines: false
+speed: 2
+drag: 0
+engineSize: 0.5
+targetGround: false
+targetAir: true
+drawCell: false
+rotateSpeed: 1
+baseRotateSpeed: 1
+faceTarget: false
+accel: 0.5
+armor: 0
+itemCapacity: 0
+omniMovement: false
+fogRadius: 10
+canAttack: true
+weapons:[
+	{
+	name: gun
+	x: 3
+	y: 0
+	recoil: 0
+	rotateSpeed: 0.7
+	inaccuracy: 4
+	ejectEffect: none
+	reload: 18
+	bullet:{
+		type: BasicBulletType
+		damage: 10
+		speed: 7
+		lifetime: 30
+		width: 3
+		height: 6
+		}
+	}
+]
