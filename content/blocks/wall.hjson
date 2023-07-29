@@ -1,0 +1,6 @@
+name: Wall
+type: Wall
+health: 200
+requirements: [
+	component/5
+]

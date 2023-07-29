@@ -1,0 +1,13 @@
+type: BufferedItemBridge
+hasShadow: false
+health: 50
+requirements: [
+  component/2
+]
+category: distribution
+range: 4
+transportTime: 60
+fadeIn: false
+moveArrows: true
+speed: 0.05
+bufferCapacity: 5

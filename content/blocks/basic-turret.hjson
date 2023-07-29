@@ -24,3 +24,6 @@ health: 160
 		height: 8
 	}
 	}
+	requirements: [
+	component/5
+]

@@ -1,0 +1,6 @@
+name: Mod Wall
+type: Wall
+health: 400
+requirements: [
+	component/10
+]

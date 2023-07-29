@@ -7,7 +7,7 @@ outlines: false
 speed: 2
 drag: 0
 engineSize: 1
-targetGround: false
+targetGround: true
 targetAir: true
 drawCell: false
 rotateSpeed: 1

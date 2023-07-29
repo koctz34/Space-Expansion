@@ -1,0 +1,32 @@
+type: itemTurret
+size: 1
+rotateSpeed: 1
+inaccuracy: 0
+category: turret
+reload: 1
+recoil: 0.6
+maxAmmo: 100
+hasShadow: false
+name: Cyan laser Turret II
+outlineRadius: 0
+fogRadius: 10
+range: 230
+targetAir: true
+targetGround: true
+ammoUseEffect: casing1
+health: 160
+	ammoTypes: {
+	component: {
+	damage: 6
+		speed: 8
+		lifetime: 40
+		width: 5
+		height: 8
+		trailEffect: smokeCloud
+       	trailLength: 24
+		trailColor: acf4fc
+	}
+	}
+	requirements: [
+	component/30
+]

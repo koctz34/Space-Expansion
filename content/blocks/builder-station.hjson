@@ -1,0 +1,15 @@
+type: CoreBlock
+name: Builder Station
+health: 1000
+itemCapacity: 1000
+size: 5
+unitCapModifier: 2
+unitType: build-drone
+requirements: [
+	component/50
+] 
+category: effect
+fogRadius: 10
+hasItems: true
+alwaysUnlocked: true
+hasShadow: false
