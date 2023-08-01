@@ -1,0 +1,182 @@
+name: Titan "Fractalo"
+flying: true
+health: 2300
+hitSize: 35
+shadow: false
+outlines: false
+speed: 1
+drag: 5
+engineSize: 1
+targetGround: true
+targetAir: true
+drawCell: false
+rotateSpeed: 1
+baseRotateSpeed: 1
+faceTarget: false
+accel: 0.6
+armor: 0
+itemCapacity: 100
+omniMovement: false
+fogRadius: 25
+canAttack: true
+weapons:[
+	{
+	name: gun-weapon
+	x: 4
+	y: -7
+	recoil: 0.5
+	rotateSpeed: 1.3
+	inaccuracy: 4
+	rotate: true
+	ejectEffect: none
+	reload: 3
+	bullet:{
+		type: BasicBulletType
+		damage: 60
+		speed: 7
+		lifetime: 40
+		width: 5
+		height: 8
+		}
+	},
+	{
+	name: gun-weapon
+	x: 4
+	y: -14
+	recoil: 0.5
+	rotateSpeed: 1.3
+	inaccuracy: 4
+	rotate: true
+	ejectEffect: none
+	reload: 3
+	bullet:{
+		type: BasicBulletType
+		damage: 60
+		speed: 7
+		lifetime: 40
+		width: 5
+		height: 8
+		}
+	},
+	{
+	name: rocket-weapon
+	x: 5
+	y: 12
+	recoil: 0.7
+	rotateSpeed: 1
+	inaccuracy: 4
+	rotate: true
+	mirror: true
+	ejectEffect: none
+	reload: 100
+	bullet:{
+		type: BasicBulletType
+		damage: 120
+		speed: 6
+		lifetime: 80
+		width: 8
+		height: 10
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+       		trailEffect: smokeCloud
+       	 	trailLength: 24
+       	 	hitEffect: explosion
+        		despawnEffect: explosion
+		}
+	},
+	{
+	name: rocket-weapon
+	x: 5
+	y: 17
+	recoil: 0.7
+	rotateSpeed: 1
+	inaccuracy: 4
+	rotate: true
+	mirror: true
+	ejectEffect: none
+	reload: 100
+	bullet:{
+		type: BasicBulletType
+		damage: 120
+		speed: 6
+		lifetime: 80
+		width: 8
+		height: 10
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+       		trailEffect: smokeCloud
+       	 	trailLength: 24
+       	 	hitEffect: explosion
+        		despawnEffect: explosion
+		}
+	},
+	{
+	name: laser-weapon
+	x: 6
+	y: -5
+	recoil: 0.8
+	rotateSpeed: 1
+	inaccuracy: 4
+	rotate: true
+	ejectEffect: none
+	reload: 150
+	bullet:{
+		type: BasicBulletType
+		damage: 380
+		speed: 19
+		lifetime: 20
+		width: 5
+		height: 12
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+			trailColor: d2faee
+       	 	trailLength: 100
+		}
+	},
+	{
+	name: laser-weapon
+	x: 12
+	y: 13
+	recoil: 0.8
+	rotateSpeed: 1
+	inaccuracy: 4
+	rotate: true
+	ejectEffect: none
+	reload: 80
+	bullet:{
+		type: BasicBulletType
+		damage: 300
+		speed: 19
+		lifetime: 20
+		width: 5
+		height: 12
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+			trailColor: d2faee
+       	 	trailLength: 100
+		}
+	},
+	{
+	name: laser-weapon
+	x: 4
+	y: 17
+	recoil: 0.6
+	rotateSpeed: 1
+	inaccuracy: 0
+	rotate: true
+	ejectEffect: none
+	reload: 1
+	bullet:{
+		type: BasicBulletType
+		damage: 8
+		speed: 19
+		lifetime: 20
+		width: 7
+		height: 16
+		shootEffect: shootSmall
+		smokeEffect: shootSmallSmoke
+			trailColor: e285ff
+       	 	trailLength: 100
+		}
+	}
+]
