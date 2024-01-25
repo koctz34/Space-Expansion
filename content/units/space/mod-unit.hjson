@@ -2,6 +2,7 @@ name: Mod Unit
 flying: true
 health: 100
 hitSize: 14
+circleTarget: true
 shadow: false
 outlines: false
 speed: 2

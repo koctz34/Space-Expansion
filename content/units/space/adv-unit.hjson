@@ -6,6 +6,7 @@ shadow: false
 outlines: false
 speed: 2
 drag: 0
+circleTarget: true
 engineSize: 1
 targetGround: true
 targetAir: true

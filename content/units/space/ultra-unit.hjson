@@ -2,6 +2,7 @@ name: Ultra Unit
 flying: true
 health: 500
 hitSize: 23
+circleTarget: true
 shadow: false
 outlines: false
 speed: 2

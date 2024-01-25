@@ -2,6 +2,7 @@ name: Carrir Unit
 flying: true
 health: 340
 hitSize: 23
+circleTarget: true
 shadow: false
 outlines: false
 speed: 2

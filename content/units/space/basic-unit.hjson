@@ -3,6 +3,7 @@ flying: true
 health: 50
 hitSize: 13
 shadow: false
+circleTarget: true
 outlines: false
 speed: 2
 drag: 0
